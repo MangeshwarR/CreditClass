@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+<link rel="stylesheet" type="text/css" href="bootstrap.css">
+<link rel="stylesheet" type="text/css" href="navbar.css">
+<body>
+
+<!-- Sidebar -->
+<div class="w3-sidebar w3-bar-block w3-border-right" style="display:none" id="mySidebar">
+  <button onclick="w3_close()" class="w3-bar-item w3-button w3-large">Close &times;</button>
+  
+</div>
+
+<!-- Page Content -->
+<div class="w3-teal">
+  <button class="w3-button w3-teal w3-xlarge" onclick="w3_open()">&#9776;</button>
+</div>
+<script>
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+}
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+     <script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="bootstrap.js" ></script>
+</body>
+</html> 
+<div class="container">
+    <div class="row">
+      <div class="col-md-12 mt-2"><img src="cip1.png" class="img-fluid rounded" width="" height=""></div>
+      <div class="col-md-12">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <!-- <a href="#" class="navbar-brand "><img src="cip1.png" class="img-fluid" width=""></a> -->
+          <button class="navbar-toggler" data-toggle="collapse"
+           data-target="#mynavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mynavbar">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item ml-3"><a href="navbar.html" class="nav-link"> Home</a></li>
+            <li class="nav-item dropdown ml-3">
+              <a href="" class="nav-link dropdown-toggle " data-toggle="dropdown">Student profile</a>
+                <div class="dropdown-menu">
+                <a href="userlogin.php" class="dropdown-item"> 11<sup>th</sup></a>
+                <a href="userlogin12.php" class="dropdown-item"> 12<sup>th</sup></a>
+                <a href="userlogin_b1.php" class="dropdown-item"> B.Com 1<sup>st</sup></a>
+                <a href="userlogin_b2.php" class="dropdown-item">B.Com 2<sup>nd</sup></a>
+                <a href="userlogin_b3.php" class="dropdown-item">B.Com  3<sup>rd</sup></a>
+                <a href="userlogin_m1.php" class="dropdown-item">M.Com  1<sup>st</sup></a>
+                <a href="userlogin_m2.php" class="dropdown-item">M.Com 2<sup>nd</sup></a>
+                </div>
+            </li>
+            <!-- <li class="nav-item"><a href="addd.php" class="nav-link"> Admission</a></li> -->
+            <li class="nav-item dropdown ml-3">
+             <a href="" class="nav-link dropdown-toggle " data-toggle="dropdown"> Admission</a>
+              <div class="dropdown-menu"> 
+              <a href="addd.php" class="dropdown-item">New Registration</a>
+              <a href="reprint.php" class="dropdown-item">Already Registration</a>
+            </div>
+          </li>
+            <li class="nav-item dropdown ml-3">
+             <a href="" class="nav-link dropdown-toggle " data-toggle="dropdown"> Study Material</a>
+              <div class="dropdown-menu"> 
+              <a href="study11.php" class="dropdown-item"> 11<sup>th</sup></a>
+              <a href="study12.php" class="dropdown-item"> 12<sup>th</sup></a>
+              <a href="study_b1.php" class="dropdown-item"> Bcom 1<sup>st</sup></a>
+              <a href="study_b2.php" class="dropdown-item">Bcom 2<sup>nd</sup></a>
+              <a href="study_b3.php" class="dropdown-item">Bcom 3<sup>rd</sup></a>
+              <a href="study_m1.php" class="dropdown-item">Mcom 1<sup>st</sup></a>
+              <a href="study_m2.php" class="dropdown-item">Mcom 2<sup>nd</sup></a>
+            </div>
+          </li>
+            <li class="nav-item ml-3"><a href="notic1.php" class="nav-link"> Notice</a></li>
+          </ul>
+          <form class="form-inline">
+            <input type="search" class="form-control mr-sm-2" placeholder="Search" name="">
+            <button class="btn btn-outline-success my-2 my-sm-0">Search</button>
+          </form>
+        </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+

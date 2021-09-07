@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title> navbar</title>
+	 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="css/navbar.css">
+</head>
+<body>
+	<!-- here start the form -->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 bg-warning">
+				<form class="form-group" action="add.php" method="post" enctype="multipart/form-data">
+
+					<label for="fname">Candidate Name</label>
+					 <div class="form-group">
+			<input type="text" class="form-control " id="fname" name="cname" placeholder="Your Name">
+		</div>
+
+			<div class="form-group">
+			<label for="fathern">Father's Name</label>
+			<div class="input-group-prepend">
+				<span class="input-group-text">Shri</span>
+				<input type="text" class="form-control" id="fathern" name="fname" placeholder="Your Father's Name">
+			</div>
+			</div>
+		<div class="form-group">
+			<label for="mname">Mother's Name</label>
+			<div class="input-group-prepend">
+				<span class="input-group-text">Shrimati</span>
+			<input type="text" class="form-control" id="mname" name="mname" placeholder=" Your Mother's Name">
+		</div>
+
+			<div class="form-group">
+			<label for="address">Address</label>
+
+			<div class="row">
+				<div class="col-md-4 mb-2">
+					<input type="text" class="form-control" id="address" name="vill" placeholder="vill/town">
+ 
+				</div>
+				<div class="col-md-4 mb-2">
+					<input type="text" class="form-control" id="address" name="block" placeholder="block">
+ 
+				</div>
+				<div class="col-md-4 mb-2">
+					<input type="text" class="form-control" id="address" name="dist" placeholder="dist">
+ 
+				</div>
+			</div>
+
+			<div class="form-group">
+			<label for="address">Date of birth</label>
+
+			<div class="row">
+				<div class="col-md-4 mb-2">
+					<input type="date" class="form-control" id="address" name="dob" placeholder="day">
+ 
+				</div>
+			</div>
+		</div>
+
+	<div class="form-group">
+		<label for="adh">Aadhaar</label>
+			<input type="text" id="adh" class="form-control" name="adhar" placeholder="Enter Adhar 12 digit">
+	</div>
+
+	<div class="row">
+		<div class="col-md-6">
+			<div class="form-group">
+		<label for="adh">choose aadhar font-photo</label>
+			<input type="file" id="adh" class="custom-file form-control" name="adhar">
+	</div>
+	
+		</div>
+		<div class="col-md-6">
+			<div class="form-group">
+		<label for="adh">choose aadhar back-photo</label>
+			<input type="file" id="adh" class="custom-file form-control" name="adhar">
+	</div>
+		</div>
+	</div>
+<div class="form-group">
+	<label for="mob">Mobile NO</label>
+			<input type="text" name="mob" class="form-control" id="mob" placeholder="Enter mob 10 digit">
+
+</div>
+
+<div class=" form-group">
+	<label for="email">Email Address</label>
+			<input type="text"  id="email" class="form-control" name="email" placeholder="ccc@gmail.com">
+</div>
+<h3>Previous Year Educational Detail </h3>
+
+
+<div class="form-group">
+	<label for="class">Class Name</label><select id="class"
+	class="custom-select" name="class">
+				<option> Select</option>
+	            <option value="9th"> 9 <sup>th</sup></option> 
+	            <option value="10th"> 10 <sup>th</sup></option>
+				<option value="11th"> 11 <sup>th</sup></option>
+				<option value="12th">12 <sup>th</sup></option>
+				<option value="B.com I"> B.com I</option>
+				<option value="B.com II">B.com II </option>
+				<option value="B.com III">B.com III </option>
+				<option value="other"> Other</option>
+			</select>
+	
+</div>
+
+<div class="form-group">
+	<label for="trade">Trade/Sector</label><select id="trade" name="trade" class="custom-select"> 
+		       <option> Select</option>
+				<option value="Science"> Science</option>
+				<option value="art">Art</option>
+				<option value="commerce">Commerce</option>
+				<option value="Other" >Other</option>
+			</select>
+</div>
+<div class="form-group">
+			<label for="address">Result</label>
+
+			<div class="row ">
+				<div class="col-md-4 mb-2">
+					<input type="text" class="form-control" id="address" name="obmark" placeholder="Obtain mark">
+ 
+				</div>
+				<div class="col-md-4 mb-2">
+					<input type="text" class="form-control" id="address" name="tomark" placeholder="total-mark">
+ 
+				</div>
+				<div class="col-md-4 mb-2">
+					<input type="text" class="form-control" id="address" name="pec" placeholder="Pecentage">
+				</div>
+			</div>
+		</div>
+
+		<h3> Current Year Educational Detail</h3>
+
+		<div class="form-group">
+			<label for="college">College Name</label>
+			<input type="text" class="form-control" id="college" name="collname" placeholder="Enter Your College Name">
+		</div>
+
+		<div class="custom-control custom-radio 
+		 custom-control-inline">
+<div class="form-group"></div>
+<label for="Board">Board</label>
+			<input type="radio"  class="custom-control-input" id="board" name="board" placeholder="" value="U.P. Board"><label class="custom-control-label" for="board"> U.P.Board</label>
+			 <input type="radio"  id="board" class="custom-control-input" name="board" placeholder="" value="CBSCE"> <label class="custom-control-label" for="board"> CBSCE Board</label>
+	</div>
+	<div class="form-group">
+	<label for="img">Image Uploade</label>
+			<input type="file" class="form-control" id="img" name="img">
+
+</div>
+<div class="form-group">
+	<label for="pass">Password</label>
+			<input type="password" class="form-control" id="pass" name="pass" placeholder="Enter Password">
+
+</div>
+
+
+
+
+
+		</div>
+<div class="row justify-content-around" >
+	<div class="col-md-4 mb-2 col-3">
+		<div class="form-group">
+			<input type="reset"  class="form-control btn bg-primary" value="Cancel" name="">
+		</div>
+	</div>
+	<!-- <div class="col-md-4 mb-2"></div> -->
+	<div class="col-md-4 mb-2 col-3">
+			<input type="submit"  class="form-control btn bg-primary" value="submit" name="">
+	</div>
+</div>
+	</div>
+
+<!-- there is end -->
+				</form>
+				
+			</div>
+			<!-- there start  the side card -->
+				
+				<div class="col-md-4 shadow-lg">
+			<div class="card">                                        
+				<img src="img/ca11.jpg"  class="card-img-top">
+				<div class="card-body  card-img-overlay">
+					<h4 class="card-title"> Admission Procedure</h4>
+				</div>
+				<div class="card-body"> 
+					<h5 class="card-title">Admission Procedure</h5>
+					<!-- <p class="card-text"></p> -->
+					<ul> 
+						<li>
+							First fill the admission-form on-line.
+						</li>
+						<li>After submit get hard-copy of this form.</li>
+						<li>Submit the hard-copy to the Credit Academy,by hand/by post.</li>
+						<li>Then your admission is successful.</li>
+					</ul>
+				</div>
+			</div>
+			<!-- there card 2 -->
+			<div class="card">                                        
+				<img src="img/ca12.jpg"  class="card-img-top">
+				<div class="card-body  card-img-overlay">
+					<h4 class="card-title"> Admission Procedure</h4>
+				</div>
+				<div class="card-body"> 
+					<h5 class="card-title">Login-Page</h5>
+					<!-- <p class="caed-text"></p> -->
+					<ul>
+						<li>After submit the form you get the Credit Student ID.</li>
+						<li>Using this CSID number, you can login student-page .  </li>
+						<li> After login you get see your all information as fee-status, test-result,
+						class-attend-detail and more.</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="card">                                        
+				<img src="img/ca13.jpg"  class="card-img-top">
+				<div class="card-body  card-img-overlay">
+					<h4 class="card-title"> Admission Procedure</h4>
+				</div>
+				<div class="card-body"> 
+					<h5 class="card-title">Be Alert & Care</h5>
+					<!-- <p class="caed-text"></p> -->
+					<ul>
+						<li>Secure your registration-no, this is used reprint the form.</li>
+						<li>Fill all the information right & clean.</li>
+						<li>For any mis-take in registration-form inform the Institute with hard-copy.  </li>
+					</ul>
+				</div>
+			</div>
+			
+
+
+		<!-- end of col -->
+		</div>
+
+			</div>
+		</div>
+	</div>
+
+
+<script type="text/javascript" src="js/jquery.js"></script>
+	<!-- <script type="text/javascript" src="js/popper.js"></script> -->
+<script type="text/javascript" src="js/bootstrap.js" ></script>
+</body>
+</html>

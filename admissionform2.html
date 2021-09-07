@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title> navbar</title>
+	 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="css/navbar.css">
+</head>
+<body>
+	<div class="container-fluil ">
+		<div class="row mt-2">
+			<div class="col" id="top-line"></div>
+		</div>
+	</div>
+
+
+<header>
+	<div class="container">
+		<div class="row  mt-1">
+			<div class="col-md-6 border-primary text-danger  btn"><div class="row  justify-content-center	">
+				<img src="img/credit.png" alt=""width="50px"  height="50px">
+				<h1>Credit Institute</h1>
+			</div> 
+		</div>
+			<div class="col-md-6 text-center bg-danger text-white"><h2>Admission Form </h2> </div>
+			
+
+
+		</div>
+	</div>
+</header>
+
+
+
+
+	<!-- here start the form -->
+	<div class="container">
+		<div class="row mt-3">
+			<div class="col-md-8 bg-warning" style="
+	box-sizing: border-box;
+	box-shadow: 0 15px 25px rgba(0,0,0,.5);
+	border-radius: 15px;
+">
+				<form class="form-group mt-4">
+
+					<label for="fname">Candidate Name</label>
+					 <div class="form-group">
+			<input type="text" class="form-control " id="fname" name="candidatename" placeholder="Your Name">
+		</div>
+
+			<div class="form-group">
+			<label for="fathern">Father's Name</label>
+			<div class="input-group-prepend">
+				<span class="input-group-text">Shri</span>
+				<input type="text" class="form-control" id="fathern" name="fname" placeholder="Your Father's Name">
+			</div>
+			</div>
+		<div class="form-group">
+			<label for="mname">Mother's Name</label>
+			<div class="input-group-prepend">
+				<span class="input-group-text">Shrimati</span>
+			<input type="text" class="form-control" id="mname" name="mname" placeholder=" Your Mother's Name">
+		</div>
+
+			<div class="form-group">
+			<label for="address">Address</label>
+
+			<div class="row">
+				<div class="col-md-3 mb-2">
+					<input type="text" class="form-control" id="address" name="address" placeholder="vill/town">
+ 
+				</div>
+				<div class="col-md-3 mb-2">
+					<input type="text" class="form-control" id="address" name="address" placeholder="block">
+ 
+				</div>
+				<div class="col-md-3 mb-2">
+					<input type="text" class="form-control" id="address" name="address" placeholder="dist">
+ 
+				</div>
+				<div class="col-md-3 mb-2">
+					<input type="text" class="form-control" id="address" name="address" placeholder="Pin-Code">
+ 
+				</div>
+			</div>
+
+			<div class="form-group">
+				<label for="birthday">Date of Birth:</label>
+  <input type="date" id="birthday" name="birthday" class="form-control">
+
+			<!-- <label for="address">Date of birth</label>
+
+			<div class="row">
+				<div class="col-md-4 mb-2">
+					<input type="text" class="form-control" id="address" name="address" placeholder="day">
+ 
+				</div>
+				<div class="col-md-4 mb-2">
+					<input type="text" class="form-control" id="address" name="address" placeholder="month">
+ 
+				</div>
+				<div class="col-md-4 mb-2">
+					<input type="text" class="form-control" id="address" name="address" placeholder="year">
+				</div> -->
+			</div>
+		</div>
+
+	<div class="form-group">
+		<label for="adh">Adhar</label>
+			<input type="text" id="adh" class="form-control" name="" placeholder="Enter Adhar 14 digit">
+	</div>
+	<!-- up image sta -->
+<div class="row"> 
+<div class="col-md-6">
+<div class="form-group">
+			<p>Adhar photo:</p>
+    <div class="custom-file mb-3">
+      <input type="file" class="custom-file-input" id="customFile" name="filename">
+      <label class="custom-file-label" for="customFile">Choose font-side file</label>
+
+    </div>
+	</div>
+</div>
+<div class="col-md-6">
+	<div class="form-group">
+			<p>.</p>
+    <div class="custom-file mb-3">
+      <input type="file" class="custom-file-input" id="customFile" name="filename">
+      <label class="custom-file-label" for="customFile">Choose Back-side file</label>
+
+    </div>
+	</div>
+</div>
+</div>
+<!-- up img end -->
+<div class="form-group">
+	<label for="mob">Mobile NO</label>
+			<input type="text" name="" class="form-control" id="mob" placeholder="Enter mob 10 digit">
+
+</div>
+
+<div class=" form-group">
+	<label for="email">Email Address</label>
+			<input type="text"  id="email" class="form-control" name="emialid" placeholder="ccc@gmail.com">
+</div>
+<h3>Previous Year Educational Detail </h3>
+
+
+<div class="form-group">
+	<label for="class">Class Name</label><select id="class"
+	class="custom-select" name=""> 
+				<option value="u/d">select </option>
+				<option value="10"> 10 <sup>th</sup></option>
+				<option value="12">12 <sup>th</sup></option>
+				<option value="B.com I"> B.com I</option>
+				<option value="B.com II">B.com II </option>
+				<option value="other"> Other</option>
+			</select>
+	
+</div>
+
+<div class="form-group">
+	<label for="trade">Trade/Sector</label><select id="trade" name="" class="custom-select"> 
+				<option value="u/d">select</option>
+				<option value="Science"> Science</option>
+				<option value="art">Art</option>
+				<option value="commerce">Commerce</option>
+				<option value="Other" >Other</option>
+			</select>
+</div>
+<div class="form-group">
+	<label for="roll">Roll No</label>
+			<input type="text" class="form-control" id="roll" name="" placeholder="Enter Roll no">
+
+</div>
+
+
+<div class="form-group">
+			<label for="address">Result</label>
+
+			<div class="row ">
+				<div class="col-md-4 mb-2">
+					<input type="text" class="form-control" id="address" name="address" placeholder=" session ">
+ 
+				</div>
+				<div class="col-md-4 mb-2">
+					<input type="text" class="form-control" id="address" name="address" placeholder="total-mark">
+ 
+				</div>
+				<div class="col-md-4 mb-2">
+					<input type="text" class="form-control" id="address" name="address" placeholder="max-mark">
+				</div>
+			</div>
+		</div>
+
+		<h3> Current Year Educational Detail</h3>
+
+		<div class="form-group">
+	<label for="class">Class Name</label><select id="class"
+	class="custom-select" name=""> 
+				<option value="u/d"> select </option>
+				<option value="10"> 11 <sup>th</sup></option>
+				<option value="12">12 <sup>th</sup></option>
+				<option value="B.com I"> B.com I</option>
+				<option value="B.com II">B.com II </option>
+				<option value="other"> B.Com III</option>
+			</select>
+	
+</div>
+
+
+		<div class="form-group">
+			<label for="college">College Name</label>
+			<input type="text" class="form-control" id="college" name="" placeholder="Enter Your College Name">
+		</div>
+
+	<div class="form-group">
+			<label for="college">Board/University Name</label>
+			<input type="text" class="form-control" id="college" name="" placeholder="Enter Your Board/University Name">
+		</div>
+	</div>
+
+
+
+<!-- <div class="form-group">
+		<div class="custom-control custom-radio custom-control-inline">
+    <input type="radio" class="custom-control-input" id="customRadio" name="example" value="customEx">
+    <label class="custom-control-label" for="customRadio">C.B.S.C.Board</label>
+  </div>
+  <div class="custom-control custom-radio custom-control-inline">
+    <input type="radio" class="custom-control-input" id="customRadio2" name="example" value="customEx">
+    <label class="custom-control-label" for="customRadio2">U.P.Board</label>
+  </div>
+		</div>
+ -->
+
+
+ 		<div class="form-group">
+			<p>Add Photo:</p>
+    <div class="custom-file mb-3">
+      <input type="file" class="custom-file-input" id="customFile" name="filename">
+      <label class="custom-file-label" for="customFile">Choose photo file</label>
+
+    </div>
+	</div>
+	<div class="form-group">
+			<p>Add Sign:</p>
+    <div class="custom-file mb-3">
+      <input type="file" class="custom-file-input" id="customFile" name="filename">
+      <label class="custom-file-label" for="customFile">Choose  sign file</label>
+
+    </div>
+	</div>
+<div class="row justify-content-around" >
+	<div class="col-md-4 mb-2 col-3">
+		<div class="form-group">
+			<input type="reset"  class="form-control btn bg-primary text-white" value="Cancel" name="">
+		</div>
+	</div>
+	<div class="col-md-4 mb-2"><button onclick="window.print()">Print this page</button>
+</div>
+	<div class="col-md-4 mb-2 col-3">
+			<input type="submit"  class="form-control btn bg-primary text-white" value="submit" name="">
+	</div>
+</div>
+	</div>
+
+<!-- there is end -->
+				</form>
+				
+		
+			<!-- there start  the side card -->
+				
+				<div class="col-md-4 shadow-lg">
+			<div class="card">                                        
+				<img src="img/ca11.jpg"  class="card-img-top">
+				<!-- <div class="card-body  card-img-overlay">
+					<h4 class="card-title"> Admission Procedure</h4>
+				</div> -->
+				<div class="card-body"> 
+					<h5 class="card-title">Admission Procedure</h5>
+					<!-- <p class="card-text"></p> -->
+					<ul> 
+						<li>
+							First fill the admission-form on-line.
+						</li>
+						<li>After submit get hard-copy of this form.</li>
+						<li>Submit the hard-copy to the Credit Academy,by hand/by post.</li>
+						<li>Then your admission is successful.</li>
+					</ul>
+				</div>
+			</div>
+			<!-- there card 2 -->
+			<div class="card">                                        
+				<img src="img/ca12.jpg"  class="card-img-top">
+				
+				<div class="card-body"> 
+					<h5 class="card-title">Login-Page</h5>
+					<!-- <p class="caed-text"></p> -->
+					<ul>
+						<li>After submit the form you get the Credit Student ID.</li>
+						<li>Using this CSID number, you can login student-page .  </li>
+						<li> After login you get see your all information as fee-status, test-result,
+						class-attend-detail and more.</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="card">                                        
+				<img src="img/ca13.jpg"  class="card-img-top">
+				<!-- <div class="card-body  card-img-overlay">
+					<h4 class="card-title"> Admission Procedure</h4>
+ -->				</div>
+				<div class="card-body"> 
+					<h5 class="card-title">Be Alert & Care</h5>
+					<!-- <p class="caed-text"></p> -->
+					<ul>
+						<li>Secure your registration-no, this is used reprint the form.</li>
+						<li>Fill all the information right & clean.</li>
+						<li>For any mis-take in registration-form inform the Institute with hard-copy.  </li>
+					</ul>
+				</div>
+			</div>
+			
+
+
+		<!-- end of col -->
+		</div>
+
+			</div>
+		</div>
+	</div>
+
+
+<script type="text/javascript" src="js/jquery.js"></script>
+	<!-- <script type="text/javascript" src="js/popper.js"></script> -->
+<script type="text/javascript" src="js/bootstrap.js" ></script>
+</body>
+</html>

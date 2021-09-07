@@ -1,0 +1,27 @@
+This list shows how much time each plugin has taken to respond to each event:
+
+on_activated:
+    Emmet.main: 0.000s total, mean: 0.000s, max: 0.000s
+    SideBarEnhancements.SideBar: 0.000s total, mean: 0.000s, max: 0.000s
+    Default.pane: 0.000s total, mean: 0.000s, max: 0.000s
+    Color Highlight.ColorHighlight: 0.000s total
+
+on_deactivated:
+    Default.history_list: 0.000s total, mean: 0.000s, max: 0.000s
+
+on_hover:
+    Default.symbol: 0.125s total, mean: 0.008s, max: 0.125s
+
+on_load:
+    Default.exec: 0.000s total
+    Default.detect_indentation: 0.016s total
+
+on_modified:
+    Emmet.main: 0.000s total, mean: 0.000s, max: 0.000s
+    SideBarEnhancements.SideBar: 0.000s total, mean: 0.000s, max: 0.000s
+    Color Highlight.ColorHighlight: 0.000s total, mean: 0.000s, max: 0.000s
+
+on_selection_modified:
+    Emmet.main: 0.000s total, mean: 0.000s, max: 0.000s
+    Color Highlight.ColorHighlight: 0.000s total, mean: 0.000s, max: 0.000s
+
